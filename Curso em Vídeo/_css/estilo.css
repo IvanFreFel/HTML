@@ -9,6 +9,7 @@ body{
     background-color: #ddd;
     color: #000000;
 }
+/* Cabeçalho*/
 #interface{
     width: 900px;
     background-color: #fff;
@@ -102,4 +103,24 @@ p{
 #menu a:hover{
     color: #fff;
     text-decoration: underline;
+}
+
+section#corpo{
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid #60606060;
+    padding-right: 20px;
+}
+aside#lateral{
+    display: block;
+    width: 350px;
+    float: right;
+}
+footer#rodape{
+    border-top: 1px solid #606060;
+    clear: both;
+}
+#rodape p{
+    text-align: center;
 }
