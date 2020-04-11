@@ -8,6 +8,7 @@
 body{
     background-color: #ddd;
     color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* Cabeçalho*/
 #interface{
@@ -20,6 +21,13 @@ body{
 p{
     text-align: justify;
     text-indent: 50px;
+}
+a{
+    color: #606060;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
 }
 #icone{
     position: absolute;
@@ -104,7 +112,7 @@ p{
     color: #fff;
     text-decoration: underline;
 }
-
+/* Fomatação do Corpo*/
 section#corpo{
     display: block;
     width: 500px;
@@ -112,6 +120,68 @@ section#corpo{
     border-right: 1px solid #60606060;
     padding-right: 20px;
 }
+#principal h2{
+    font-size: 12pt;
+    color: #606060;
+    background-color: #ddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px;
+}
+#cabecalho-artigo h1{
+    font-family: 'FonteLogo', sans-serif;   
+    font-size: 20pt;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#cabecalho-artigo h2{
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #fff;
+    margin: 0px;
+}
+#cabecalho-artigo h3{
+    font-size: 12px;
+    color: #606060;
+}
+.direita{
+    text-align: right;
+ }
+ #tabelaspc{
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ #tabelaspc td{
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+ }
+ #tabelaspc td.ce{
+     color: #fff;
+     background-color: #606060;
+     vertical-align: top;
+     font-weight:bold;
+     text-align: right;
+ }
+ #tabelaspc td.cd{
+     color: #000;
+     background-color: #cecece;
+     text-align: left;
+ }
+ #tabelaspc caption{
+    color: #888;
+    font-size: 13pt;
+    font-weight: blodeer;
+ }
+ #tabelaspc caption span{
+    display: block;
+    float: right;
+    color: #000;
+    font-size: 8pt;
+    margin-top: 10px;
+ }
 aside#lateral{
     display: block;
     width: 350px;
